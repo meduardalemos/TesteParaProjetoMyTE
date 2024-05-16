@@ -1,0 +1,14 @@
+// ~/Content/custom.scss
+
+// Importar o arquivo de variáveis do Bootstrap
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// Sobrescrever as variáveis de cor
+$primary: #ff0000;
+$secondary: #00ff00;
+
+// Outras variáveis de personalização...
+
+// Importar o Bootstrap para compilar com as variáveis sobrescritas
+@import "../lib/bootstrap";
